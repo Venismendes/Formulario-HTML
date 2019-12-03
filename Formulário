@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+
+
+</head>
+<body>
+	<h1>Cadastro Cliente</h1>
+	<form action="">
+	<p>Nome: <input type="text" size="20" placeholder="Digite seu nome" name=""></p>
+	<p>Email: <input type="text" size="20" placeholder="Digite seu email" name=""></p>
+	<p>Endereço: <input type="text" size="20" placeholder="Digite seu endereço" name=""></p>
+
+	<p>Sexo <br>
+	   <input type="radio" name="gender" value="Masculino">Masculino <br>
+	   <input type="radio" name="gender" value="Feminino">Feminino </p>
+
+	<p>Que promoções gostaria de receber por e-mail <br>
+	   <input type="checkbox" name="">Viagens <br>
+	   <input type="checkbox" name="">Produtos Eletrônico <br>
+	   <input type="checkbox" name="">Automóveis <br>
+	   <input type="checkbox" name="">Casa e Decoração <br>
+	   <input type="checkbox" name="">Cinema <br>
+	   <input type="checkbox" name="">Outros <br>
+	   <input type="text" size="20" placeholder="Quais outras opções" name=""></p>
+
+
+	<p><input type="submit" value="Enviar">
+	   <input type="submit" value="Limpar">
+	   <input type="submit" value="Cancelar"></p>
+
+
+	</form>
+	<h2>Música The Spectre:</h2>
+	<audio controls="" src="TheSpectre.mp3"></audio>
+
+
+
+</body>
+</html>
